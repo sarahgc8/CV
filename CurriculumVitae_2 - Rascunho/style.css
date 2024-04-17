@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Times;
+}
+
+#conteudo {
+    font-size: 15px;
+}
+
+header {
+    background-color:rgb(197, 212, 253);
+    text-align: center;
+}
+
+
+header div {
+    background-color:aliceblue;
+    padding: 20px;
+}
+
+header div ul {
+    font-style:italic;
+    list-style-type: none;
+    line-height: 150%;   
+}
+
+main {
+    background-color:rgb(197, 212, 253);
+}
+
+section {
+    background-color: aliceblue;
+    text-align:justify;
+    line-height: 180%;
+    letter-spacing: normal;
+    padding: 20px;
+}
+
+
+aside {
+    background-color: aliceblue;
+    text-align:justify;
+    line-height: 180%;
+    letter-spacing: normal;
+    padding: 20px;
+}
+
+h3 {
+    text-align: center;
+}
+
+.titulo {
+    font-weight: bold;
+}
+
+/* CSS Grid - Início */
+
+header {
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+    grid-gap: 20px;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 2.2fr 5fr;
+    grid-gap: 20px;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+/* CSS Grid - Fim */
